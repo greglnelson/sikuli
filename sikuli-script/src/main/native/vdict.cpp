@@ -3,8 +3,7 @@
  * Released under the MIT License.
  *
  */
-#include "cv.h"
-#include "highgui.h"
+#include "opencv.hpp"
 
 #include "assert.h"
 
