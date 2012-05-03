@@ -176,8 +176,8 @@ Java_JAVAH_EXECUTABLE:FILEPATH=/usr/bin/javah
 //Path to a program.
 Java_JAVA_EXECUTABLE:FILEPATH=/usr/bin/java
 
-//The arguments for running Python nose tests
-NOSE_ARGS:STRING=
+//No help, variable specified on the command line.
+NOSE_ARGS:STRING=--tests=
 
 //Add some variable to make this script compatible with the other
 // version of FindOpenCV.cmake
