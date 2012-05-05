@@ -1,0 +1,316 @@
+[ 43%] Built target VisionProxy
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+[ 43%] Built target sikuli-script.classes
+Scanning dependencies of target sikuli-script.test.classes
+Note: org/sikuli/script/DragListDemo.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+[ 43%] Built target sikuli-script.test.classes
+Scanning dependencies of target test-res
+[ 47%] Copy test resource
+[ 47%] Built target test-res
+[ 52%] Merging Jython's JAR
+[ 52%] Built target sikuli-script.jar.jython-in-jar
+[ 56%] Merging JXGrabKey's JAR
+[ 56%] Built target sikuli-script.jar.jxgrabkey-in-jar
+[ 60%] Packaging JXGrabKey in Jar
+[ 60%] Built target sikuli-script.jar.hotkey-lib
+[ 69%] Built target VDictProxy
+[ 73%] Build native libs
+[ 73%] Built target sikuli-script.jar.libs-in-jar
+[ 73%] Built target sikuli-script.jar.classes-in-jar
+[ 78%] Copying Jython Libraries
+[ 78%] Built target sikuli-script.jar.jython-libs-in-jar
+[ 82%] Copying Sikuli's Python Source
+[ 82%] Built target sikuli-script.jar.python-src-in-jar
+[ 86%] Copying Tesseract Data
+[ 86%] Built target sikuli-script.jar.tessdata-in-jar
+[ 86%] Built target sikuli-script.jar.includes-in-jar
+[ 91%] Preparing and packaging sikuli-script.jar
+[ 91%] Built target sikuli-script.jar
+Scanning dependencies of target python-test
+[ 95%] Run Python unit tests
+Downloading http://pypi.python.org/packages/2.5/s/setuptools/setuptools-0.6c11-py2.5.egg
+Creating /home/g/proj/sikuli/s2/sikuli-script/build/site-packages/site.py
+Searching for nose
+Reading http://pypi.python.org/simple/nose/
+Reading http://somethingaboutorange.com/mrl/projects/nose/
+Reading http://readthedocs.org/docs/nose/
+Best match: nose 1.1.2
+Downloading http://pypi.python.org/packages/source/n/nose/nose-1.1.2.tar.gz#md5=144f237b615e23f21f6a50b2183aa817
+Processing nose-1.1.2.tar.gz
+Running nose-1.1.2/setup.py -q bdist_egg --dist-dir /tmp/easy_install-JzdKjA/nose-1.1.2/egg-dist-tmp-cMfEzD
+Adding nose 1.1.2 to easy-install.pth file
+Installing nosetests-2.5 script to /home/g/proj/sikuli/s2/sikuli-script/build/site-packages
+Installing nosetests script to /home/g/proj/sikuli/s2/sikuli-script/build/site-packages
+
+Installed /home/g/proj/sikuli/s2/sikuli-script/build/site-packages/nose-1.1.2-py2.5.egg
+Processing dependencies for nose
+Finished processing dependencies for nose
+Processing setuptools-0.6c11-py2.5.egg
+Copying setuptools-0.6c11-py2.5.egg to /home/g/proj/sikuli/s2/sikuli-script/build/site-packages
+Adding setuptools 0.6c11 to easy-install.pth file
+Installing easy_install script to /home/g/proj/sikuli/s2/sikuli-script/build/site-packages
+Installing easy_install-2.5 script to /home/g/proj/sikuli/s2/sikuli-script/build/site-packages
+
+Installed /home/g/proj/sikuli/s2/sikuli-script/build/site-packages/setuptools-0.6c11-py2.5.egg
+Processing dependencies for setuptools==0.6c11
+Finished processing dependencies for setuptools==0.6c11
+find tests in  /home/g/proj/sikuli/s2/sikuli-script/src/test/python
+[info] Sikuli vision engine loaded.
+[info] VDictProxy loaded.
+testAppWindow (test_app.TestApp) ... [log] openApp: /usr/bin/gcalctool
+[log] App.open /usr/bin/gcalctool(13753)
+[log] App.close /usr/bin/gcalctool(13753)
+ok
+testBasicClass (test_basic.TestBasic) ... ok
+testConstants (test_basic.TestBasic) ... ok
+testGlobalFunction (test_basic.TestBasic) ... ok
+testImagePath (test_basic.TestBasic) ... ok
+testImport (test_basic.TestBasic) ... ok
+testPattern (test_basic.TestBasic) ... ok
+testCapsLock (test_env.TestEnv) ... ok
+testMouseLocation (test_env.TestEnv) ... ok
+testOS (test_env.TestEnv) ... ok
+testSikuliVersion (test_env.TestEnv) ... ok
+testBundlePath (test_find.TestFind) ... [error] network.png looks like a file, but can't be found on the disk. Assume it's text.
+[info] Text Recognizer inited.
+ok
+testSikuliImagePath (test_find.TestFind) ... [error] network.png looks like a file, but can't be found on the disk. Assume it's text.
+ok
+testAddHotkey (test_hotkey.TestHotkey) ... [info] add hotkey:  F6
+ok
+testAddHotkeyReal (test_hotkey.TestHotkey) ... [info] add hotkey:  F6
+ok
+testRemoveHotkey (test_hotkey.TestHotkey) ... [info] remove hotkey:  F7
+[info] add hotkey:  F7
+[info] remove hotkey:  F7
+ok
+testButtons (test_key.TestKeyAndButton) ... ok
+testCommonKeys (test_key.TestKeyAndButton) ... ok
+testModifiers (test_key.TestKeyAndButton) ... ok
+testNewModifiers (test_key.TestKeyAndButton) ... ok
+testToJythonRegion (test_pyregion.TestJavaRegion) ... ok
+testClick (test_region.TestRegion) ... [error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+[error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+ok
+testDoubleClick (test_region.TestRegion) ... [error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+[error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+ok
+testDrag (test_region.TestRegion) ... [error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+ok
+testDragDrop (test_region.TestRegion) ... [error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+[error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+[log] DRAG null to null
+[error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+[log] Ctrl+DRAG null to (0,0)
+ok
+testDropAt (test_region.TestRegion) ... [error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+[error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+ok
+testExists (test_region.TestRegion) ... [error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+[error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+ok
+testFind (test_region.TestRegion) ... [error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+ok
+testFindAll (test_region.TestRegion) ... [error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+ok
+testHover (test_region.TestRegion) ... [error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+ok
+testKeyDownAndUp (test_region.TestRegion) ... ok
+testMouseDownAndUp (test_region.TestRegion) ... ok
+testMouseMove (test_region.TestRegion) ... [error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+ok
+testPaste (test_region.TestRegion) ... [error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+ok
+testRightClick (test_region.TestRegion) ... [error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+[error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+ok
+testType (test_region.TestRegion) ... [log] TYPE "a string"
+[error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+[log] TYPE "a string"
+[error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+[log] Shift+TYPE "a string"
+ok
+testWait (test_region.TestRegion) ... [error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+[error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+ok
+testWaitVanish (test_region.TestRegion) ... [error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+[error] test-res/network.png looks like a file, but can't be found on the disk. Assume it's text.
+ok
+testCapture (test_screen.TestScreen) ... ok
+testDelete (test_vdict.TestVDict) ... ok
+testFileNotFound (test_vdict.TestVDict) ... ok
+testInit (test_vdict.TestVDict) ... ok
+testInsert (test_vdict.TestVDict) ... ok
+testLookup (test_vdict.TestVDict) ... ok
+
+----------------------------------------------------------------------
+XML: /home/g/proj/sikuli/s2/sikuli-script/build/TEST-Sikuli-Python-Suite.xml
+----------------------------------------------------------------------
+Ran 44 tests in 15.522s
+
+OK
+[ 95%] Built target python-test
+Scanning dependencies of target java-test
+[100%] Run Java unit tests
+Buildfile: /home/g/proj/sikuli/s2/sikuli-script/hudson-test.xml
+
+test:
+[jacoco:coverage] Enhancing junit with coverage.
+    [junit] Testsuite: org.sikuli.script.CaptureTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 1.816 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] [info] Sikuli vision engine loaded.
+    [junit] ------------- ---------------- ---------------
+    [junit] 
+    [junit] Testcase: test_capture took 1.745 sec
+    [junit] Testsuite: org.sikuli.script.FinderTest
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Time elapsed: 11.891 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] test target: targetMusicFolder_512_194.png
+    [junit] test target: targetClockIcon_45_279_44_299_44_318.png
+    [junit] test target: targetTinyFolderIcon_43_338_43_360_44_381_45_399.png
+    [junit] test target: targetTopBar_845_8.png
+    [junit] test target: targetSikuli_1081_170_1078_287.png
+    [junit] test target: targetOK_832_635.png
+    [junit] test target: targetTXT_960_171_957_58_1076_393_1075_499_1074_610_1078_718.png
+    [junit] test target: targetRadioButton_316_249_316_267_316_288_316_561.png
+    [junit] test target: targetFolder_1194_65_1196_178_1196_287.png
+    [junit] test target: target1_898_213.png
+    [junit] test target: target11_1653_7.png
+    [junit] test target: target6_426_310.png
+    [junit] test target: target7_110_10.png
+    [junit] test target: target2_797_143.png
+    [junit] test target: target4_97_498.png
+    [junit] test target: target8_29_12.png
+    [junit] test target: target10_1496_8.png
+    [junit] test target: target9_1055_10.png
+    [junit] test target: target5_216_339.png
+    [junit] test target: targetBookmark_1098_82.png
+    [junit] test target: targetDates_774_331.png
+    [junit] test target: targetContactIcon_1464_60_1459_117_1459_145_1458_172_1458_201_1458_227_1459_256_1458_284_1458_312_1459_341_1458_369_1458_396_1459_470.png
+    [junit] test target: targetAdiumRegion_1524_141.png
+    [junit] test target: targetFileIcon_454_271_456_298_456_321_456_349_456_374_457_402_457_424_453_479_339_241.png
+    [junit] test target: targetAppleIcon_27_10.png
+    [junit] test target: targetDeckIcons_1110_1008.png
+    [junit] test target: targetCameraIcon_54_139_70_161_52_186_90_210_61_235_58_269_100_293_86_317_61_340_84_368_114_367_55_415_60_462_84_497.png
+    [junit] test target: targetPanda_178_35_179_139_183_249.png
+    [junit] test target: targetFolder_295_41_299_138_403_164_402_45.png
+    [junit] test target: targetDog_82_189_82_284_185_380.png
+    [junit] test target: targetChicken_732_475_593_506.png
+    [junit] test target: targetDeer_747_304_796_219_933_251.png
+    [junit] test target: targetSheep_922_579_984_297.png
+    [junit] test target: target1_514_49.png
+    [junit] test target: target8_59_275.png
+    [junit] test target: target2_605_49.png
+    [junit] test target: target0_310_62.png
+    [junit] test target: target11_311_405.png
+    [junit] test target: target12_598_403.png
+    [junit] test target: target3_706_46.png
+    [junit] test target: target6_901_98.png
+    [junit] test target: target10_375_204.png
+    [junit] test target: target5_430_50.png
+    [junit] test target: target7_629_264.png
+    [junit] test target: target13_30_404.png
+    [junit] test target: target9_455_276.png
+    [junit] test target: targetTestODBC_107_390.png
+    [junit] test target: targetMetadata_652_112.png
+    [junit] test target: targetDialog_833_529.png
+    [junit] test target: targetCommandPrompt_576_1035_710_1035.png
+    [junit] test target: targetPitchPriceTextField_615_498.png
+    [junit] test target: targetSearchButton_1194_412.png
+    [junit] test target: targetFallBackPriceTextField_806_496.png
+    [junit] test target: targetRegion_1156_477.png
+    [junit] test target: targetSaveAllButton_169_554.png
+    [junit] test target: targetUSDollarDropdown_970_506.png
+    [junit] test target: target8_113_847.png
+    [junit] test target: target9_309_1101.png
+    [junit] test target: target7_560_95.png
+    [junit] test target: target1_1499_538.png
+    [junit] test target: target3_1505_610.png
+    [junit] test target: target4_1577_459.png
+    [junit] test target: target10_455_1102.png
+    [junit] test target: target6_1200_189.png
+    [junit] test target: target2_1498_562.png
+    [junit] test target: target5_1578_371.png
+    [junit] test target: targetH_177_334_177_197_303_55_430_196_556_337_426_474.png
+    [junit] test target: targetCPP_301_199_49_198_55_334_302_335_306_475.png
+    [junit] test target: targetVCProj_179_474.png
+    [junit] test target: targetDLL_427_56_556_57_681_56.png
+    [junit] test target: targetPureSmallBlue_288_109_313_109.png
+    [junit] test target: targetGreen_394_102_88_38.png
+    [junit] test target: targetPureWhite_-1_-1.png
+    [junit] test target: targetBlue_285_105_84_32.png
+    [junit] test target: targetBlack_166_105_86_33.png
+    [junit] test target: targetRed_52_103_85_35.png
+    [junit] test target: targetPureBlack_171_109_182_109_172_109.png
+    [junit] ------------- ---------------- ---------------
+    [junit] 
+    [junit] Testcase: testParameter took 0.001 sec
+    [junit] Testcase: testFinderFolders took 0.218 sec
+    [junit] Testcase: testMacDesktopDark took 0.244 sec
+    [junit] Testcase: testMacDesktop took 0.875 sec
+    [junit] Testcase: testMacDesktopSikuli took 0.535 sec
+    [junit] Testcase: testFuzzyDesktop took 0.032 sec
+    [junit] Testcase: testFuzzyFarmville took 0.121 sec
+    [junit] Testcase: testSikuliOrg took 0.412 sec
+    [junit] Testcase: testWhereSpace took 0.274 sec
+    [junit] Testcase: testXpPricingApp took 0.91 sec
+    [junit] Testcase: testXpDesktop took 0.795 sec
+    [junit] Testcase: testXpFolders took 0.044 sec
+    [junit] Testcase: testMacDesktopAll took 6.983 sec
+    [junit] Testcase: testBubbles took 0.059 sec
+    [junit] Testcase: testInbox took 0.267 sec
+    [junit] Testcase: testExactColor took 0.099 sec
+    [junit] Testsuite: org.sikuli.script.HotkeyTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 10.053 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] [info] add hotkey:  F6
+    [junit] [info] add hotkey: ALT 2
+    [junit] [error] Hot key conflicts
+    [junit] [info] remove hotkey:  F6
+    [junit] [info] add hotkey:  F7
+    [junit] ------------- ---------------- ---------------
+    [junit] 
+    [junit] Testcase: test_hotkey_install took 10.049 sec
+    [junit] Testsuite: org.sikuli.script.ImageLocatorTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 0.622 sec
+    [junit] 
+    [junit] Testcase: test_not_existing_local_img took 0 sec
+    [junit] Testcase: test_existing_remote_img took 0.36 sec
+    [junit] Testcase: test_cache took 0.065 sec
+    [junit] Testcase: test_existing_local_img took 0.188 sec
+    [junit] Testsuite: org.sikuli.script.OCRTest
+    [junit] Using substitute bounding box at (0,0)->(47,9)
+    [junit] Using substitute bounding box at (48,0)->(157,30)
+    [junit] Using substitute bounding box at (3,0)->(202,23)
+    [junit] Using substitute bounding box at (0,0)->(312,20)
+    [junit] Using substitute bounding box at (0,69)->(7,29)
+    [junit] Using substitute bounding box at (63,93)->(74,25)
+    [junit] Using substitute bounding box at (0,2)->(13,29)
+    [junit] Using substitute bounding box at (0,0)->(192,30)
+    [junit] Using substitute bounding box at (50,2)->(214,30)
+    [junit] java: unicharset.cpp:76: const UNICHAR_ID UNICHARSET::unichar_to_id(const char*, int) const: Assertion `ids.contains(unichar_repr, length)' failed.
+    [junit] Testsuite: org.sikuli.script.Batch-With-Multiple-Tests
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0 sec
+    [junit] 
+    [junit] Testcase: testListText took 0.001 sec
+    [junit] 	Caused an ERROR
+    [junit] Forked Java VM exited abnormally. Please note the time in the report does not reflect the time until the VM exit.
+    [junit] junit.framework.AssertionFailedError: Forked Java VM exited abnormally. Please note the time in the report does not reflect the time until the VM exit.
+    [junit] 	at org.jacoco.ant.CoverageTask.execute(CoverageTask.java:96)
+    [junit] 
+    [junit] Tests FAILED (crashed)
+
+all:
+
+BUILD SUCCESSFUL
+Total time: 45 seconds
+[100%] Built target java-test
+Scanning dependencies of target all-test
+[100%] Built target all-test
