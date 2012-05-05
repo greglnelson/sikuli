@@ -141,22 +141,22 @@ CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Path to a file.
-JAVA_AWT_INCLUDE_PATH:PATH=/usr/lib/jvm/default-java/include
+JAVA_AWT_INCLUDE_PATH:PATH=/usr/lib/jvm/java-7-oracle/include
 
 //Path to a library.
-JAVA_AWT_LIBRARY:FILEPATH=/usr/lib/jvm/default-java/jre/lib/i386/libjawt.so
+JAVA_AWT_LIBRARY:FILEPATH=/usr/lib/jvm/java-7-oracle/jre/lib/i386/libjawt.so
 
 //Path to a file.
-JAVA_INCLUDE_PATH:PATH=/usr/lib/jvm/default-java/include
+JAVA_INCLUDE_PATH:PATH=/usr/lib/jvm/java-7-oracle/include
 
 //Path to a file.
-JAVA_INCLUDE_PATH2:PATH=/usr/lib/jvm/default-java/include
+JAVA_INCLUDE_PATH2:PATH=/usr/lib/jvm/java-7-oracle/include/linux
 
 //Path to a program.
 JAVA_JAVA_H:FILEPATH=/usr/bin/javah
 
 //Path to a library.
-JAVA_JVM_LIBRARY:FILEPATH=/usr/lib/jvm/default-java/jre/lib/i386/client/libjvm.so
+JAVA_JVM_LIBRARY:FILEPATH=/usr/lib/jvm/java-7-oracle/jre/lib/i386/client/libjvm.so
 
 //The java test case to run with run-java-test
 JAVA_TEST_CASE:STRING=
@@ -176,8 +176,8 @@ Java_JAVAH_EXECUTABLE:FILEPATH=/usr/bin/javah
 //Path to a program.
 Java_JAVA_EXECUTABLE:FILEPATH=/usr/bin/java
 
-//No help, variable specified on the command line.
-NOSE_ARGS:STRING=--tests=
+//The arguments for running Python nose tests
+NOSE_ARGS:STRING=
 
 //Add some variable to make this script compatible with the other
 // version of FindOpenCV.cmake
@@ -205,7 +205,7 @@ SWIG_VERSION:STRING=2.0.4
 TESSERACT_DATA_DIR:PATH=/usr/local/share/tessdata
 
 //Path to a library.
-TIFF_LIBS:FILEPATH=/usr/local/lib/libtiff.so
+TIFF_LIBS:FILEPATH=/usr/lib/i386-linux-gnu/libtiff.so
 
 //Path to a file.
 Tesseract_INCLUDE_DIR:PATH=/usr/local/include
@@ -214,10 +214,10 @@ Tesseract_INCLUDE_DIR:PATH=/usr/local/include
 Tesseract_LIBRARY:FILEPATH=/usr/local/lib/libtesseract_full.a
 
 //Dependencies for the target
-VDictProxy_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_imgproc;general;opencv_highgui;general;opencv_ml;general;opencv_video;general;opencv_features2d;general;opencv_calib3d;general;opencv_objdetect;general;opencv_contrib;general;opencv_legacy;general;opencv_flann;general;/usr/local/lib/libtiff.so;general;opencv_core;general;opencv_imgproc;general;opencv_highgui;general;opencv_ml;general;opencv_video;general;opencv_features2d;general;opencv_calib3d;general;opencv_objdetect;general;opencv_contrib;general;opencv_legacy;general;opencv_flann;general;/usr/local/lib/libtiff.so;
+VDictProxy_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_imgproc;general;opencv_highgui;general;opencv_ml;general;opencv_video;general;opencv_features2d;general;opencv_calib3d;general;opencv_objdetect;general;opencv_contrib;general;opencv_legacy;general;opencv_flann;general;/usr/lib/i386-linux-gnu/libtiff.so;general;opencv_core;general;opencv_imgproc;general;opencv_highgui;general;opencv_ml;general;opencv_video;general;opencv_features2d;general;opencv_calib3d;general;opencv_objdetect;general;opencv_contrib;general;opencv_legacy;general;opencv_flann;general;/usr/lib/i386-linux-gnu/libtiff.so;
 
 //Dependencies for the target
-VisionProxy_LIB_DEPENDS:STATIC=general;/usr/local/lib/libtesseract_full.a;general;opencv_core;general;opencv_imgproc;general;opencv_highgui;general;opencv_ml;general;opencv_video;general;opencv_features2d;general;opencv_calib3d;general;opencv_objdetect;general;opencv_contrib;general;opencv_legacy;general;opencv_flann;general;/usr/local/lib/libtiff.so;
+VisionProxy_LIB_DEPENDS:STATIC=general;/usr/local/lib/libtesseract_full.a;general;opencv_core;general;opencv_imgproc;general;opencv_highgui;general;opencv_ml;general;opencv_video;general;opencv_features2d;general;opencv_calib3d;general;opencv_objdetect;general;opencv_contrib;general;opencv_legacy;general;opencv_flann;general;/usr/lib/i386-linux-gnu/libtiff.so;
 
 //Value Computed by CMake
 sikuli-script_BINARY_DIR:STATIC=/home/g/proj/sikuli/s2/sikuli-script/build
@@ -338,9 +338,9 @@ CMAKE_USE_RELATIVE_PATHS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding JNI
-FIND_PACKAGE_MESSAGE_DETAILS_JNI:INTERNAL=[/usr/lib/jvm/default-java/jre/lib/i386/libjawt.so][/usr/lib/jvm/default-java/jre/lib/i386/client/libjvm.so][/usr/lib/jvm/default-java/include][/usr/lib/jvm/default-java/include][/usr/lib/jvm/default-java/include][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_JNI:INTERNAL=[/usr/lib/jvm/java-7-oracle/jre/lib/i386/libjawt.so][/usr/lib/jvm/java-7-oracle/jre/lib/i386/client/libjvm.so][/usr/lib/jvm/java-7-oracle/include][/usr/lib/jvm/java-7-oracle/include/linux][/usr/lib/jvm/java-7-oracle/include][v()]
 //Details about finding Java
-FIND_PACKAGE_MESSAGE_DETAILS_Java:INTERNAL=[/usr/bin/java][/usr/bin/jar][/usr/bin/javac][/usr/bin/javah][/usr/bin/javadoc][v1.6.0.24(1.6)]
+FIND_PACKAGE_MESSAGE_DETAILS_Java:INTERNAL=[/usr/bin/java][/usr/bin/jar][/usr/bin/javac][/usr/bin/javah][/usr/bin/javadoc][v1.7.0.04(1.6)]
 //Details about finding SWIG
 FIND_PACKAGE_MESSAGE_DETAILS_SWIG:INTERNAL=[/usr/bin/swig2.0][/usr/share/swig2.0][v2.0.4()]
 //ADVANCED property for variable: JAVA_AWT_INCLUDE_PATH
